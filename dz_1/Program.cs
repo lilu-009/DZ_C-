@@ -17,19 +17,15 @@
 
 // Задача 4
 
- //Console.Write("Enter the first number: ");
+// Console.Write("Enter the first number: ");
 // int number1 = Convert.ToInt32(Console.ReadLine());
 // Console.Write("Enter the second number: ");
 // int number2 = Convert.ToInt32(Console.ReadLine());
 // Console.Write("Enter the third number: ");
 // int number3 = Convert.ToInt32(Console.ReadLine());
 // int max = number1;
-// if(number2 > max)
-// {
-//    max = number2;
-//    if(number3 > max) max = number3;
-// }
-// else if(number3 > max) max = number3;
+// if(number2 > max) max = number2;
+// if(number3 > max) max = number3;
 // Console.Write("Max: " +max);
 
 
