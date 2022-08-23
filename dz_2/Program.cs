@@ -37,23 +37,40 @@
 
 // Задача 15
 
-Console.Write("Enter the number of the day of the week: ");
+// Console.Write("Enter the number of the day of the week: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if(number <= 7 && number > 0)
+// {
+//     if(number > 5)
+//     {
+//         Console.Write("Yes");
+//     }
+
+//     else
+//     {
+//         Console.Write("No");
+//     }
+// }
+
+// else
+// {
+//     Console.Write("No such day of the week");
+// }
+
+
+
+// Задача 14
+
+Console.Write("Enter number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if(number <= 7 && number > 0)
+if(number % 7 == 0 && number % 23 == 0)
 {
-    if(number > 5)
-    {
-        Console.Write("Yes");
-    }
-
-    else
-    {
-        Console.Write("No");
-    }
+    Console.Write("Yes");
 }
 
 else
 {
-    Console.Write("No such day of the week");
+    Console.Write("No");
 }
