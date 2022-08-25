@@ -19,19 +19,24 @@
 
 // Задача 13
 
-// Console.Write("Enter number: ");
-// int number = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter number: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
-// if(number / 100 >= 1)
-// {
-//     int number1 = number % 10;
+if(number / 100 >= 1)
+{
+    while(number >= 1000)
+    {
+        number = number / 10;
+    }
+    
+    int number1 = number % 10;
 
-//     Console.Write("Third digit: " +number1);
-// }
-// else
-// {
-//     Console.Write("No third digit");
-// }
+    Console.Write("Third digit: " +number1);
+}
+else
+{
+    Console.Write("No third digit");
+}
 
 
 
@@ -62,15 +67,15 @@
 
 // Задача 14
 
-Console.Write("Enter number: ");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-if(number % 7 == 0 && number % 23 == 0)
-{
-    Console.Write("Yes");
-}
+// if(number % 7 == 0 && number % 23 == 0)
+// {
+//     Console.Write("Yes");
+// }
 
-else
-{
-    Console.Write("No");
-}
+// else
+// {
+//     Console.Write("No");
+// }
